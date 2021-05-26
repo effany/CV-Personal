@@ -1,0 +1,162 @@
+/*Default settings*/
+
+.row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.row::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+body {
+    line-height: 1.5;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    margin: auto; 
+    padding-top: 4%;
+    padding-bottom: 4%; 
+}
+
+h1 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+h2 {
+   font-family: 'Baskervville', serif;
+}
+
+
+
+/*Header Section style*/
+
+.Header {
+    background-color: #47708C; 
+    color: white;
+}
+.IntroSec {
+    margin-left: 35px;
+    line-height: 1;
+    font-size: 15px;
+}
+
+.profilePic {
+    width: 120px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.IntroParagraph {
+    line-height: 1.5;
+}
+
+.ContactInfo {
+    list-style: none;
+    line-height: 1.5;
+    padding: 15px;
+/*    float: right;*/
+    
+}
+
+
+
+/*Work Experiences*/
+
+.WorkExperiences {
+    padding-left: 35px;
+    padding-bottom: 20px;
+    background-color: #F5F8FA;
+    line-height: 1.5;
+}
+
+li {
+    list-style: none;
+}
+
+.work {
+    border-right: #D2DCE2 dotted ;
+}
+
+.date {
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+/*Education*/
+
+.educationContainer {
+    padding-left: 35px;
+}
+
+.education {
+   border-right: #D2DCE2 dotted 
+}
+
+/*Licenses & Certification*/
+
+.licenseContainer{
+    padding-left: 35px;
+    background-color: #F5F8FA;
+}
+
+/*Skiils*/
+
+.Skills {
+    padding-left: 35px;
+}
+
+.SkillTitle {
+    padding-right: 20px;
+    
+}
+
+.langHeader {
+   padding-top: 0;
+}
+
+.languageList {
+    padding-left: 0;
+}
+
+/*footer*/
+
+footer {
+    box-shadow: 10px 30px #888888;
+}
+
+/*
+.footerContainer {
+    background-color: #47708C;
+
+}
+*/
+
+
+
+
+
+
